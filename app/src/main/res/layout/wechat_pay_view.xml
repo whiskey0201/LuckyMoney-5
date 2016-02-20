@@ -1,0 +1,28 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@null"
+        android:gravity="bottom">
+        <ImageView
+            android:id="@+id/wechat_pay_me"
+            android:longClickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/wechat_pay_qrbarcode_1" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="¥1.00"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:text="长按，赏一块银元买串冰糖葫芦吧~"/>
+    </LinearLayout>
